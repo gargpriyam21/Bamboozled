@@ -10,17 +10,11 @@ This app is helpful as it can be used to compare with others and also help to ch
 
 ## Screenshots / Demos
 
-<img src="img/img1.png" alt="drawing" width="200"/>
+<img src="img/img1.png" alt="drawing" width="200"/> <img src="img/img2.png" alt="drawing" width="200"/>
 
-![Screenshot 2: Simple Round](img/img2.png)
+<img src="img/img3.png" alt="drawing" width="200"/> <img src="img/img4.png" alt="drawing" width="200"/>
 
-![Screenshot 3: Rapid Fire](img/img3.png)
-
-![Screenshot 4: Last Page](img/img4.png)
-
-![Screenshot 5: Instructions](img/img5.png)
-
-![Screenshot 6: History](img/img6.png)
+<img src="img/img5.png" alt="drawing" width="200"/> <img src="img/img6.png" alt="drawing" width="200"/>
 
 ![Screenshot 7: Logo](img/img7.png)
 
