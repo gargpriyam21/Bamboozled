@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gameover"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@raw/appbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="WELL PLAYED"
+            android:textColor="#FFD700"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <com.github.lzyzsd.circleprogress.DonutProgress
+                android:id="@+id/pbScore"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:elevation="10dp"
+                app:donut_finished_color="#E52B50"
+                app:donut_finished_stroke_width="30dp"
+                app:donut_progress="20"
+                app:donut_text_size="0sp"
+                app:donut_unfinished_color="@android:color/white"
+                app:donut_unfinished_stroke_width="30dp" />
+
+
+            <TextView
+                android:id="@+id/tvProgressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/pbScore"
+                android:layout_alignLeft="@+id/pbScore"
+                android:layout_alignRight="@+id/pbScore"
+                android:layout_alignTop="@+id/pbScore"
+                android:gravity="center"
+                android:text="Score:\n0/5"
+                android:textColor="#E52B50"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnPlayAgain"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_state"
+            android:text="PLAY AGAIN"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnQuit"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_state"
+            android:text="QUIT"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

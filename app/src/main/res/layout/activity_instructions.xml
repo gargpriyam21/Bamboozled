@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_instructions"
+    tools:context="com.example.neera.bamboozled.activities.Activity_Instructions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@raw/appbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="BAMBOOZLED!!! : Could there be any more Interesting QUIZ \n --CHALLENGE AT IT'S BEST--"
+            android:textColor="#E30022"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_normal"
+                android:gravity="center"
+                android:text="Lets Play Bamboozled"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Lets Play Bamboozled : It is a basic QUIZ round in whic you get 5 Questions with four choices out of which only one will be correct you will get 1 point each Question \n-LETS BAMBOOZLE-"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_normal"
+                android:gravity="center"
+                android:text="Lightning Round"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Lightning Round : A Rapid Fire Round Answer as many Question. AKA The Face Up Round check your knowledge about the show. One wrong answer and game over, All you got is 5 Minutes \nCan You Answer All The Questions?????"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

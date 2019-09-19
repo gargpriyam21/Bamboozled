@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_quiz"
+    tools:context="com.example.neera.bamboozled.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@raw/appbar" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="SCORE"
+            android:textColor="#30D5C8"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.4"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="--Question Appears Here--"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/btnChoice1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:gravity="center"
+            android:text="CHOICE 1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnChoice2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:gravity="center"
+            android:text="CHOICE 2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnChoice3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:gravity="center"
+            android:text="CHOICE 3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnChoice4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_normal"
+            android:gravity="center"
+            android:text="CHOICE 4"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
