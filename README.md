@@ -16,9 +16,9 @@ This app is helpful as it can be used to compare with others and also help to ch
 
 <img src="img/img5.png" alt="drawing" width="200"/> <img src="img/img6.png" alt="drawing" width="200"/>
 
-![Screenshot 7: Logo](img/img7.png)
+<img src="img/img7.png" alt="drawing" width="200"/>
 
-![Screenshot 8: Top Logo](img/img8.png)
+<img src="img/img8.png" alt="drawing" width="200"/>
 
 ## Challenges
 
