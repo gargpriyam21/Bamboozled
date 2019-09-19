@@ -10,7 +10,7 @@ This app is helpful as it can be used to compare with others and also help to ch
 
 ## Screenshots / Demos
 
-![Screenshot 1: Start Page](img/img1.png)
+![Screenshot 1: Start Page](img/img1.png =250x250)
 
 ![Screenshot 2: Simple Round](img/img2.png)
 
